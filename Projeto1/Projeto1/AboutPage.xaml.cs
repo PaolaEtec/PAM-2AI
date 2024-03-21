@@ -6,9 +6,12 @@ public partial class AboutPage : ContentPage
 	{
 		InitializeComponent();
 	}
+<<<<<<< HEAD
 
 	private void LearnMore_Clicked(object sender, EventArgs e)
 	{
 		
 	}
+=======
+>>>>>>> 80f267308bdeca2da71497c3dca854df14cbd80b
 }

@@ -4,6 +4,7 @@
              x:Class="Projeto1.AboutPage"
              Title="AboutPage">
     <VerticalStackLayout Spacing="10" Margin="10">
+<<<<<<< HEAD
         <HorizontalStackLayout Spacing="10">
 
             <Image Source="dotnot_bot.png"
@@ -24,5 +25,20 @@
             Text="This app is written in XAML and C# with .NET MAUI" />
         <Button
             Text="Learn more..." Clicked="LearnMore_Clicked"/>
+=======
+        <HorizontalStackLayout>
+
+            <Image Source="dotnet_bot.png"
+                   SemanticProperties.Description="The dot net bot waving hello!"
+                   HeightRequest="64"/>
+            <Label FontSize="22" FontAttributes="Bold" Text="Notes"
+                   VerticalOptions="End"/>
+            <Label FontSize="22" Text="v1.0" VerticalOptions="End"/>
+           
+        </HorizontalStackLayout>
+
+        <Label Text="This app is written in XAML ans C# with .NET MAUI."/>
+        <Button Text="Learn more..." Clicked="LearnMore_Clicked"/>
+>>>>>>> 80f267308bdeca2da71497c3dca854df14cbd80b
     </VerticalStackLayout>
 </ContentPage>
