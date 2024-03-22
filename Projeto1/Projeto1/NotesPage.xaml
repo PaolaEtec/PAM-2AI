@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projeto1.NotesPage"
+             Title="NotesPage">
+    <VerticalStackLayout>
+        <Editor Placeholder="Escreva aqui" SemanticProperties.Description="Caixa de texto para anotação" x:Name="NoteEditor">
+        </Editor>
+        
+        <Button  Text="Salvar" SemanticProperties.Description="Botão para salvar" x:Name="SaveButton" Clicked="SaveButton_Clicked">
+        </Button>
+
+        <Button  Text="Deletar" SemanticProperties.Description="Botão para deletar" x:Name="DeleteButton" Clicked="DeleteButton_Clicked">
+        </Button>
+    </VerticalStackLayout>
+</ContentPage>

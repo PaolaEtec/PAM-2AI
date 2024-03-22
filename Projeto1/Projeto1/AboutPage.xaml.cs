@@ -7,8 +7,9 @@ public partial class AboutPage : ContentPage
 		InitializeComponent();
 	}
 
-	private void LearnMore_Clicked(object sender, EventArgs e)
+	private async void LearnMore_Clicked(object sender, EventArgs e)
 	{
-		
+		//É um método ASSÍNCRONO que abre um recurso (URI)  
+		await Launcher.OpenAsync("https://www.google.com.br");
 	}
 }
